@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+    <div id="main" class=" w-screen h-screen flex justify-center items-center bg-gray-600">
+        <div id="cal-body" class=" w-75 h-auto bg-transparent rounded-lg p-4">
+            <div id="cal-top" class="text-white mb-1">
+                <h1 class="text-2xl ">Calculator</h1>
+                
+
+            </div>
+            <div id="screen">
+                <input type="text" id="display" class=" w-full h-16 bg-gray-900 rounded-lg text-right text-2xl p-2 " disabled>
+            </div>
+            <div id="buttons" class=" bg-gray-800 rounded-lg grid grid-cols-4 gap-2.5 p-3 mt-4">
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">7</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">8</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">9</button>
+                <button id="divide" class="bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">/</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">4</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">5</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">6</button>
+                <button id="multiply" class="bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">*</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">1</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">2</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">3</button>
+                <button id="subtract" class="bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">-</button>
+                <button class="num bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">0</button>
+                <button id="decimal" class="bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">.</button>
+                <button id="backspace" class=" bg-red-400 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]" >←</button>
+                <button id="add" class="bg-white p-1.5 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">+</button>
+                <button id="clear" class=" col-span-2 bg-red-400 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">C</button>
+                <button id="equals" class=" col-span-2 bg-emerald-300 rounded-lg shadow-[0px_5px_0px_0px_rgb(0_0_0/63%)]">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
