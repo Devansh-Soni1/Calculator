@@ -39,7 +39,7 @@ Supports both **button clicks** and **keyboard input** for smooth usability.
 ---
 
 ## 🔗 Live Demo
-[GitHub Live priview](https://devansh-soni1.github.io/SCT_WD_2/src/)
+[GitHub Live priview](https://devansh-soni1.github.io/Calculator/src/)
 
 ---
 
